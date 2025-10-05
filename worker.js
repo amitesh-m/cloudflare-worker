@@ -17,7 +17,6 @@ export default {
 
       const resp = await fetch(target.toString(), {
         headers: { "accept": "application/json" },
-        "resolveOverride": "quote-api.jup.ag" 
       });
 
       const body = await resp.arrayBuffer();
